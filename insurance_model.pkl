@@ -1,5 +1,4 @@
 import joblib
 joblib.dump(model, 'insurance_model.pkl')
 
-# Load the saved model
-model = joblib.load('insurance_model.pkl')
+ 
