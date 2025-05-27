@@ -1,4 +1,0 @@
-import joblib
-joblib.dump(model, 'insurance_model.pkl')
-
- 
