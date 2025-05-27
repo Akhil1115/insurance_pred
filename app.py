@@ -2,10 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-
-# Save the trained model
-# Make sure 'model' is already trained (e.g., GradientBoostingRegressor)
-joblib.dump(model, 'insurance_model.pkl')
+ 
 
 # Load the saved model (e.g., in your app or a new script)
 model = joblib.load('insurance_model.pkl')
